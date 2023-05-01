@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.mainPageBlock {
+    display: flex;
+    width: 800px;
+    margin-top: 20px;
+}
+.mainPageDescr {
+    color: white;
+    margin-top: 55px;
+    font-size: 36px;
+}
+.mainPageImg {
+    width: 200px;
+}
+.hr {
+    width: 75vw;
+}
+@media (max-width: 768px) { 
+    .mainPageBlock {
+        display: flex;
+        min-width: 290px;
+        margin-top: 5px;
+        text-align: center;
+        max-width: 100vw;
+    }
+    .mainPageDescr {
+        color: white;
+        margin-top: 20px;
+        font-size: 24px;
+        text-align: left;
+        margin: 7px;
+    }
+    .mainPageImg {
+        display: none;
+    }
+}

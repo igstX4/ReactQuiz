@@ -1,0 +1,68 @@
+.questionItemWrapper {
+    margin-top: 20px;
+    display: flex;
+    background: #333333;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 55vw;
+    min-height: 100px;
+}
+.questionItemTitle {
+    margin-top: 30px;
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: white;
+
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+    resize: none;
+    overflow: hidden;
+}
+.DefaultQuestionDiv {
+    display: flex;
+    justify-content: center;
+}
+.btnSave {
+    width: 270px;
+    height: 60px;
+    background: #282828;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    &:hover {
+        background-color: #2b2b2b;
+    }
+}
+.saveBtnDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.deleteQuestionBtn {
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) { 
+    .questionItemTitle {
+        font-size: 21px;
+        height: 65px;
+    }
+    .btnSave {
+        width: 100px;
+        font-size: 22px;
+        height: 50px;
+        margin-top: 11px;
+    }
+    .questionItemWrapper {
+        width: 80vw;
+    }
+}
